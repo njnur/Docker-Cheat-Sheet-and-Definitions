@@ -23,23 +23,8 @@ cgroups were originally developed by Paul Menage and Rohit Seth of Google, and t
 Namespaces were originally developed by Eric Biederman, and the final major namespace was merged into Linux 3.8.
 
 ### Docker CheatSheet
-To run any image
-```
-docker run <image-name>
-```
-List all running containers
-```
-docker ps
-```
-List all containers
-```
-docker ps --all
-```
-Create a docker container
-```
-docker create <image-name>
-```
-Start a docker container
-```
-docker start -a <image-name>
-```
+* `docker create <image-name>` create a docker container
+* `docker start -a <image-name>` start a docker container
+* `docker run <image-name>` run an image
+* `docker ps` list running containers
+* `docker ps --all` list all containers
