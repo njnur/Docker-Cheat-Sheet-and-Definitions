@@ -30,5 +30,5 @@ Namespaces were originally developed by Eric Biederman, and the final major name
 * `docker logs <container-id>` get container logs
 * `docker stop <container-id>` stop containers
 * `docker kill <container-id>` kill containers
-* `docker exec -it <container-id> <command>` kill containers
+* `docker exec -it <container-id> <command>` execute commands inside a container
  
