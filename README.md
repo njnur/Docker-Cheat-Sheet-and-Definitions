@@ -1,3 +1,5 @@
+#### Docker Terminologies
+
 **Docker:** Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
 
 **Container:** A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
