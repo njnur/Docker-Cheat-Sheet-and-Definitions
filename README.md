@@ -31,4 +31,9 @@ Namespaces were originally developed by Eric Biederman, and the final major name
 * `docker stop <container-id>` stop containers
 * `docker kill <container-id>` kill containers
 * `docker exec -it <container-id> <command>` execute commands inside a container
- 
+
+* `docker build .` build a container
+* `docker build -t <your-docker-id>/<project-name>:<project-version> .` tagging an image
+* `docker run <your-docker-id>/<project-name>` run a tagged image
+* `docker commit -c '<your-command>' <image-id>` create an image manually
+* `docker run -p <incoming-port>:<container-port> <image-id/name>` run docker with port mapping
