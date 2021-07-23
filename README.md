@@ -37,3 +37,10 @@ Namespaces were originally developed by Eric Biederman, and the final major name
 * `docker run <your-docker-id>/<project-name>` run a tagged image
 * `docker commit -c '<your-command>' <image-id>` create an image manually
 * `docker run -p <incoming-port>:<container-port> <image-id/name>` run docker with port mapping
+
+**Docker Compose**
+* `docker-compose up` to run the image using docker-compose
+* `docker-compose up --build` to build and then run the image using docker-compose
+* `docker-compose up -d` to run the image using docker-compose in background
+* `docker-compose down` to the containers using docker-compose
+* `docker-compose ps` list running containers in the directory
